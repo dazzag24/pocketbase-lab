@@ -1,8 +1,8 @@
 docker run -it --publish 8090:8090 \
--e R2_BUCKET="${R2_BUCKET}" \
--e R2_ACCESS_KEY="${R2_ACCESS_KEY}" \
--e R2_SECRET_KEY="${R2_SECRET_KEY}" \
--e R2_DATA_PATH="${R2_DATA_PATH}" \
--e R2_LOGS_PATH="${R2_LOGS_PATH}" \
--e R2_URL="${R2_URL}" \
+-e S3_BUCKET="${S3_BUCKET}" \
+-e S3_ACCESS_KEY="${S3_ACCESS_KEY}" \
+-e S3_SECRET_KEY="${S3_SECRET_KEY}" \
+-e S3_DATA_PATH="${S3_DATA_PATH}" \
+-e S3_LOGS_PATH="${S3_LOGS_PATH}" \
+-e S3_URL="${S3_URL}" \
 pocketbase:latest --rm 
