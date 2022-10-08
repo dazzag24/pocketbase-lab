@@ -1,6 +1,6 @@
 # fly.toml file generated for pocketbase-alex on 2022-08-04T12:58:24+02:00
 
-app = "pocketbase-alex"
+app = "pocketbase-daz"
 kill_signal = "SIGINT"
 kill_timeout = 5
 processes = []
