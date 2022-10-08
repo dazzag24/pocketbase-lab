@@ -14,21 +14,6 @@ weird stuff and doing things "the React way", I would really appreciate feedback
 
 ## Deploying yourself
 
-### Frontend
-
-If you want to try this out for yourself all the code I use is here.
-
-For react follow this guide: https://developers.cloudflare.com/pages/framework-guides/deploy-a-react-application/
-
-You need to set the build root directory to `/frontend` for it properly build the React app.
-
-You need to set some environment variables in the settings after deploying it on Cloudflare Pages:
-
-```
-NODE_VERSION=16
-REACT_APP_API_URL=https://pocketbase-alex.fly.dev/
-```
-
 ### Backend
 
 Deploying on fly.io is simple. Follow their guide
@@ -54,5 +39,22 @@ S3_URL
 ```
 
 Put them in a secrets.env file and run `fly secrets import < secrets.env` to set all of them at the same time.
+
+### Frontend
+
+If you want to try this out for yourself all the code I use is here.
+
+For react follow this guide: https://developers.cloudflare.com/pages/framework-guides/deploy-a-react-application/
+
+You need to set the build root directory to `/frontend` for it properly build the React app.
+
+You need to set some environment variables in the settings after deploying it on Cloudflare Pages:
+
+```
+NODE_VERSION=16
+REACT_APP_API_URL=https://pocketbase-alex.fly.dev/
+```
+
+
 
 
