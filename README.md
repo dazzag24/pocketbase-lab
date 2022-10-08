@@ -52,7 +52,13 @@ You need to set some environment variables in the settings after deploying it on
 
 ```
 NODE_VERSION=16
-REACT_APP_API_URL=https://pocketbase-alex.fly.dev/
+REACT_APP_API_URL=https://<FLY_BACKEND_HOSTNAME>/
+```
+
+You can obtain the hostname using this command in the `backend` directory:
+
+```
+fly status | grep Hostname
 ```
 
 
