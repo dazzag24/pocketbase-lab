@@ -61,6 +61,12 @@ You can obtain the hostname using this command in the `backend` directory:
 fly status | grep Hostname
 ```
 
+## Notes
 
+To access the Pocketbase admin pages visit this site:
+
+https://<FLY_BACKEND_HOSTNAME>/_/
+
+and create an admin account
 
 
